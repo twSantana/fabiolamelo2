@@ -495,20 +495,11 @@ p {
   position: absolute;
   top: 12%;
   right: -8px;
-  display: grid;
   width: 112px;
   height: 112px;
-  place-items: center;
   border: 1px solid rgb(240 120 43 / 75%);
   border-radius: 50%;
-  color: var(--plum);
-  background: var(--cream);
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: .12em;
-  line-height: 1.55;
-  text-align: center;
-  transform: rotate(-9deg);
+  object-fit: cover;
 }
 
 .scroll-cue {
@@ -1528,7 +1519,6 @@ p {
     right: -5px;
     width: 88px;
     height: 88px;
-    font-size: 7px;
   }
 
   .hero-image-label {
